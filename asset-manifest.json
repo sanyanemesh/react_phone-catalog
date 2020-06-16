@@ -1,31 +1,31 @@
 {
   "files": {
-    "main.css": "./static/css/main.d6d96b99.chunk.css",
-    "main.js": "./static/js/main.da9d846b.chunk.js",
-    "main.js.map": "./static/js/main.da9d846b.chunk.js.map",
+    "main.css": "./static/css/main.2a2015fb.chunk.css",
+    "main.js": "./static/js/main.14e7f0ec.chunk.js",
+    "main.js.map": "./static/js/main.14e7f0ec.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.7c3e9311.js",
     "runtime-main.js.map": "./static/js/runtime-main.7c3e9311.js.map",
-    "static/css/2.ab84ab19.chunk.css": "./static/css/2.ab84ab19.chunk.css",
-    "static/js/2.0552ba9c.chunk.js": "./static/js/2.0552ba9c.chunk.js",
-    "static/js/2.0552ba9c.chunk.js.map": "./static/js/2.0552ba9c.chunk.js.map",
+    "static/css/2.e4ce7aec.chunk.css": "./static/css/2.e4ce7aec.chunk.css",
+    "static/js/2.03a52c6c.chunk.js": "./static/js/2.03a52c6c.chunk.js",
+    "static/js/2.03a52c6c.chunk.js.map": "./static/js/2.03a52c6c.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.7423899db73c2409ebb726c24b805b68.js": "./precache-manifest.7423899db73c2409ebb726c24b805b68.js",
+    "precache-manifest.ce761d8d3b4e08c3cb98dd81f87a9d69.js": "./precache-manifest.ce761d8d3b4e08c3cb98dd81f87a9d69.js",
     "service-worker.js": "./service-worker.js",
-    "static/css/2.ab84ab19.chunk.css.map": "./static/css/2.ab84ab19.chunk.css.map",
-    "static/css/main.d6d96b99.chunk.css.map": "./static/css/main.d6d96b99.chunk.css.map",
-    "static/js/2.0552ba9c.chunk.js.LICENSE.txt": "./static/js/2.0552ba9c.chunk.js.LICENSE.txt",
+    "static/css/2.e4ce7aec.chunk.css.map": "./static/css/2.e4ce7aec.chunk.css.map",
+    "static/css/main.2a2015fb.chunk.css.map": "./static/css/main.2a2015fb.chunk.css.map",
+    "static/js/2.03a52c6c.chunk.js.LICENSE.txt": "./static/js/2.03a52c6c.chunk.js.LICENSE.txt",
     "static/media/Banner.scss": "./static/media/9.33eb8231.jpg",
-    "static/media/Footer.scss": "./static/media/Chevron (Arrow Right).e81aaeac.svg",
-    "static/media/Header.scss": "./static/media/LOGO.49f66587.svg",
+    "static/media/Footer.scss": "./static/media/Chevron (Arrow Right).6d472ca3.svg",
+    "static/media/Header.scss": "./static/media/LOGO.65d5cd55.svg",
     "static/media/App.scss": "./static/media/Mont-SemiBold.d41a520b.otf",
     "static/media/Accessories.scss": "./static/media/out_of_stock_1024x1024.938e2dfc.jpg",
     "static/media/slick-theme.css": "./static/media/slick.f97e3bbf.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.7c3e9311.js",
-    "static/css/2.ab84ab19.chunk.css",
-    "static/js/2.0552ba9c.chunk.js",
-    "static/css/main.d6d96b99.chunk.css",
-    "static/js/main.da9d846b.chunk.js"
+    "static/css/2.e4ce7aec.chunk.css",
+    "static/js/2.03a52c6c.chunk.js",
+    "static/css/main.2a2015fb.chunk.css",
+    "static/js/main.14e7f0ec.chunk.js"
   ]
 }
