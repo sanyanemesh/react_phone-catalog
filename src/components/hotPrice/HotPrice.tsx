@@ -70,7 +70,7 @@ const goods = useSelector(getGoods);
           className="CardSlider__list "
           style={{ transform: `translateX(${imgPosition}%)` }}
         >
-          {goods.filter(good => good.discount !== 0).map(good =>
+          {goods.filter((good: { discount: number; }) => good.discount !== 0).map((good: Good) =>
             <div className="CardSlider__item">
               < Card good={good} />
             </div>

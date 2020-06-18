@@ -7,14 +7,14 @@ import { Card } from '../card/Card';
 const Phones = () => {
   const goods = useSelector(getVisibleGoods);
 
-  goods.filter(good => good.type === 'phone');
+  goods.filter((good: { type: string; }) => good.type === 'phone');
 
   return (
     <>
       <h1>Phones</h1>
       <div className="Card">
         <ul className="Card__list">
-          {goods.map(good => <Card good={good} />)}
+          {goods.map((good: Good) => <Card good={good} />)}
         </ul>
       </div>
     </>

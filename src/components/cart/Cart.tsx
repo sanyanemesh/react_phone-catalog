@@ -28,7 +28,7 @@ export const Cart = () => {
       <h1>Cart</h1>
       <div className="Card">
         <ul className="Cart__List">
-          {cart.map(item => (
+          {cart.map((item: { good: Good; }) => (
             <li key={item.good.id} className="CartItem">
 
               <div className="CartItem__Photo-Container">
