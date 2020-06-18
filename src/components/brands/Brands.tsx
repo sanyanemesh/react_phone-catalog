@@ -1,11 +1,12 @@
+/* eslint-disable jsx-a11y/control-has-associated-label */
 import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
-import CN from "classnames";
+import CN from 'classnames';
 import { Card } from '../card/Card';
 import { getGoods } from '../../store';
-import "./Brands.scss";
+import './Brands.scss';
 
-type Props = { wigthSlides: number }
+type Props = { wigthSlides: number };
 
 const HotPrice: React.FC<Props> = ({ wigthSlides }) => {
   const goods = useSelector(getGoods);
@@ -23,10 +24,11 @@ const HotPrice: React.FC<Props> = ({ wigthSlides }) => {
       setCurrentSlide(currentSlide + 1);
       setStatePrevBtn(true);
     }
+
     if (currentSlide === count - 1) {
       setStateNextBtn(false);
     }
-  }
+  };
 
   const handlePrevSlide = () => {
     if (currentSlide > 0) {
@@ -51,8 +53,7 @@ const HotPrice: React.FC<Props> = ({ wigthSlides }) => {
           })}
           disabled={!statePrevBtn}
           onClick={() => handlePrevSlide()}
-        >
-        </button>
+        />
         <button
           type="button"
           className={CN({
@@ -61,27 +62,20 @@ const HotPrice: React.FC<Props> = ({ wigthSlides }) => {
           })}
           disabled={!stateNexttBtn}
           onClick={() => handleNextSlide()}
-        ></button>
+        />
       </div>
       <div className="CardSlider__container">
         <ul
           className="CardSlider__list "
           style={{ transform: `translateX(${imgPosition}%)` }}
         >
-          {goods.map(good =>
+          {goods.map(good => (
             <div className="CardSlider__item">
-              < Card good={good} />
+              <Card good={good} />
             </div>
-          )}
+          ))}
         </ul>
       </div>
-
-      {/* <div className="Card">
-        <ul className="Card__list">
-          {goods.map(good =>
-            < Card good={good} />)}
-        </ul>
-      </div> */}
     </div>
   );
 };

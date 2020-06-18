@@ -1,16 +1,15 @@
+/* eslint-disable jsx-a11y/control-has-associated-label */
 import React, { useState } from 'react';
-import CN from "classnames";
+import CN from 'classnames';
 import { useSelector } from 'react-redux';
 import './HotPrice.scss';
 import { Card } from '../card/Card';
 import { getGoods } from '../../store';
 
-import "./HotPrice.scss";
-
-type Props = { wigthSlides: number }
+type Props = { wigthSlides: number };
 
 const HotPrice: React.FC<Props> = ({ wigthSlides }) => {
-const goods = useSelector(getGoods);
+  const goods = useSelector(getGoods);
   const [imgPosition, setImgPosition] = useState<number>(0);
   const sliderLength = goods.length;
   const count = sliderLength / 4;
@@ -24,10 +23,11 @@ const goods = useSelector(getGoods);
       setCurrentSlide(currentSlide + 1);
       setStatePrevBtn(true);
     }
+
     if (currentSlide === count - 1) {
       setStateNextBtn(false);
     }
-  }
+  };
 
   const handlePrevSlide = () => {
     if (currentSlide > 0) {
@@ -41,7 +41,7 @@ const goods = useSelector(getGoods);
     }
   };
 
-   return (
+  return (
     <div>
       <div className="CardSliderBtn__wrapper">
         <button
@@ -52,8 +52,7 @@ const goods = useSelector(getGoods);
           })}
           disabled={!statePrevBtn}
           onClick={() => handlePrevSlide()}
-        >
-        </button>
+        />
         <button
           type="button"
           className={CN({
@@ -62,7 +61,7 @@ const goods = useSelector(getGoods);
           })}
           disabled={!stateNexttBtn}
           onClick={() => handleNextSlide()}
-        ></button>
+        />
       </div>
 
       <div className="CardSlider__container">
@@ -70,11 +69,11 @@ const goods = useSelector(getGoods);
           className="CardSlider__list "
           style={{ transform: `translateX(${imgPosition}%)` }}
         >
-          {goods.filter((good: { discount: number; }) => good.discount !== 0).map((good: Good) =>
+          {goods.filter((good: { discount: number }) => good.discount !== 0).map((good: Good) => (
             <div className="CardSlider__item">
-              < Card good={good} />
+              <Card good={good} />
             </div>
-          )}
+          ))}
         </ul>
       </div>
 

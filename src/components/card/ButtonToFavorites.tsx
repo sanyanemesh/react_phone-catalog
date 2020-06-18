@@ -27,7 +27,6 @@ const ButtonFavor: React.FC<Props> = ({ good }) => {
     favorites.some(productFav => productFav.id === good.id)
   ), [favorites, good]);
 
-
   return (
     <label
       className={cn('ButtonFavor',
