@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1e2c377f50b84d323cbbc0562a158ab3",
+    "revision": "4d7312887f4192827c5bbed3dfbb9cde",
     "url": "./index.html"
   },
   {
-    "revision": "99c0b6bc20de4d2a9c76",
+    "revision": "082269cbea7a1b9a7d0e",
     "url": "./static/css/2.ab84ab19.chunk.css"
   },
   {
-    "revision": "9cab08ae8e23e7e77595",
-    "url": "./static/css/main.f4ba6e84.chunk.css"
+    "revision": "1b555965e9f996be1fd3",
+    "url": "./static/css/main.f0d80599.chunk.css"
   },
   {
-    "revision": "99c0b6bc20de4d2a9c76",
-    "url": "./static/js/2.90eeabb2.chunk.js"
+    "revision": "082269cbea7a1b9a7d0e",
+    "url": "./static/js/2.f2ab41f7.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "./static/js/2.90eeabb2.chunk.js.LICENSE.txt"
+    "url": "./static/js/2.f2ab41f7.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9cab08ae8e23e7e77595",
-    "url": "./static/js/main.22aef214.chunk.js"
+    "revision": "1b555965e9f996be1fd3",
+    "url": "./static/js/main.cdcd4fa4.chunk.js"
   },
   {
     "revision": "1610068e25a4810046d0",
@@ -60,6 +60,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/LOGO.49f66587.svg"
   },
   {
+    "revision": "a8f6c95434221c82983815731c5ebb20",
+    "url": "./static/media/Line7.a8f6c954.svg"
+  },
+  {
+    "revision": "b99344d695d01d4ac747fabf51db6302",
+    "url": "./static/media/Minus.b99344d6.svg"
+  },
+  {
     "revision": "482e37260cd688576287f1976e958e0b",
     "url": "./static/media/Mont-Bold.482e3726.otf"
   },
@@ -70,6 +78,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "d41a520b1802421f24e21279736e1871",
     "url": "./static/media/Mont-SemiBold.d41a520b.otf"
+  },
+  {
+    "revision": "d77d1038dea6a4928987fdcf3f6ff72e",
+    "url": "./static/media/Plus.d77d1038.svg"
+  },
+  {
+    "revision": "3b0f193d5ee6518250338e24f45e5298",
+    "url": "./static/media/deleteCart.3b0f193d.svg"
   },
   {
     "revision": "ff3d67af1b96156ed02937810edcf38b",
