@@ -1,1 +1,21 @@
+.Favorites {
+  position: relative;
+
+  &__count {
+    position: absolute;
+    top: 23px;
+    left: 32px;
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    background-color: #eb5757;
+    font-family: Mont;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 9px;
+    line-height: 12px;
+    text-align: center;
+    color: white;
+  }
+}
 

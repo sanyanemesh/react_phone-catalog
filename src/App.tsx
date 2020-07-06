@@ -16,7 +16,6 @@ import { Cart } from './components/cart/Cart';
 import Footer from './components/footer/Footer';
 
 import './App.scss';
-//import { Search } from './components/search/Search';
 
 const getAppData = async (): Promise<Good[]> => {
   const goodsFromServer = await api.getGoods();
@@ -28,7 +27,7 @@ const App = () => {
   const dispatch = useDispatch();
 
   const initData = () => {
-       getAppData()
+    getAppData()
       .then(goodsFromServer => {
         dispatch(initGood(goodsFromServer));
       });
